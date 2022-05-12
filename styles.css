@@ -1,0 +1,120 @@
+.btn {
+    background-color: #059ca1;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    height: 400px;
+    overflow: auto;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+}
+
+.gamebtn {
+    width: 100%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.btn:hover {
+    background-color: #007d86;
+}
+
+.nav-btn {
+    /*  visibility: hidden; */
+    width: 45%;
+}
+
+.btnlist {
+    width: 10%;
+    /* float: left; */
+    margin: 2%;
+
+}
+
+body {
+    display: flex;
+    /* flex-direction: column; */
+    margin: 0px;
+    
+}
+
+
+div {
+    margin: 10px;
+}
+
+#chart_div div{
+    margin:0px;
+}
+
+#nav-btn2 {
+    
+    /* justify-content: right; */
+    margin-left: 2px;
+    
+}
+
+#nav-btn1 {
+    margin-right: 2px;
+}
+
+.navbtnlist{
+    display: flex;
+    justify-content: center;
+    margin:0px;
+}
+
+#chart_div {
+    margin: 0px;
+    margin-top: 10px;
+}
+#loading_status {
+    margin: 0;
+    padding: 0;
+}
+
+#firstbtn {
+    margin-top: 0px;
+}
+
+img {
+    margin-top: 2%;
+    height: 389.979px;
+
+}
+
+#imgdiv {
+    display: flex;
+    justify-content: center;
+    width: 86%;
+}
